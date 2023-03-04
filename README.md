@@ -147,7 +147,7 @@ You can follow the URL to see the actual running app.
 
 ### Notes: This is just a demo of configuration for AWS CI/CD Pipeline Usage.
 
-This settings is 100% validate, however, I might changes some configuration or delete this AWS at some point.
+This settings is 100% accurate & working, however, I might changes some configuration or delete this AWS at some point.
 
 Therefore, the URL might not exist or available for public user to interact with.
 
