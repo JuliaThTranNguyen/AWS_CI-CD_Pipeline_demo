@@ -22,6 +22,7 @@ This is just a simple counter app which can be deploy using AWS pipeline.
 ### 1. Make a github link & push your project to github.
 
 ### 2. Navigate to AWS Console Panel ---> Search for the CI/CD Pipeline 
+
 ![Screenshot from 2023-03-04 21-22-38](https://user-images.githubusercontent.com/49017322/222924959-19629e14-5744-4087-81fc-7ceb7e1d07a3.png)
 
 
@@ -30,6 +31,7 @@ This is just a simple counter app which can be deploy using AWS pipeline.
 
 
 ### 3. Inside of the CodePipeline Panel: Click "Create Pipeline"
+
 ![Screenshot from 2023-03-04 21-22-38](https://user-images.githubusercontent.com/49017322/222925301-c15b88d0-2498-4961-80d5-5ace8a439592.png)
 
 
@@ -67,8 +69,11 @@ Then, you should able to view the updated message on AWS Pipeline settings page 
 Also select "Codepipepline default". When you done with this steps, just click on "Next".
 
 ADD build stage
+
 For the build provider : Just Select AWS codebuild
+
 Then choose your country location for the next step.
+
 Then Click on "Next" to confirm this set up.
 
 ![Screenshot from 2023-03-04 22-13-45](https://user-images.githubusercontent.com/49017322/222926825-91c071b7-9b84-4ba2-8fe1-b18193c7438c.png)
@@ -103,12 +108,14 @@ Then confirm the setting , and we should be able to review the contents of our s
 ![Screenshot from 2023-03-04 22-23-20](https://user-images.githubusercontent.com/49017322/222927171-d70f02f1-fa45-48b7-a082-41b590dbaf93.png)
 
 Finally, select "Create Pipeline " to confirm the final selection.
+
 The sucessfully message will appear.
 
 ![Screenshot from 2023-03-04 22-25-21](https://user-images.githubusercontent.com/49017322/222927223-488a644d-1f42-4153-ac55-9a4d12d98b34.png)
 
 
 Once the build && deploy has completed. Let make the 3S Bucket public.
+
 Use the Static website Hosting mode, then specify the index.html for hosting website. Save that settings.
 
 ![Screenshot from 2023-03-04 22-31-50](https://user-images.githubusercontent.com/49017322/222927522-101c5a49-8ee8-43fc-a646-4a5b97674e1c.png)
@@ -138,8 +145,11 @@ Then we can click on index.html, this will give us an object URL
 
 You can follow the URL to see the actual running app.
 
-## Notes: This is just a demo of configuration && set up steps for AWS CI/CD Pipeline Usage.
-This settings is 100% validate, however, I might changes some configuration or delete this AWS at some point. Therefore, the URL might not exist or available for public user to interact with.
+### Notes: This is just a demo of configuration for AWS CI/CD Pipeline Usage.
+
+This settings is 100% validate, however, I might changes some configuration or delete this AWS at some point.
+
+Therefore, the URL might not exist or available for public user to interact with.
 
 -----------------------------THANK YOU SO MUCH FOR YOUR TIME---------------------------------
 
